@@ -1,0 +1,105 @@
+Git Commands Reference
+
+1. Basic Setup
+
+Initialize a New Repository  
+  `git init`
+
+Configure Username  
+  `git config --global user.name "Your Name"`
+
+Configure Email  
+  `git config --global user.email "your.email@example.com"`
+
+
+
+2. File Management
+
+Create a New File  
+  `touch filename.txt`
+
+Add a File to Staging Area  
+  `git add filename.txt`
+
+Commit Changes  
+  `git commit -m "Commit message"`
+
+Remove a File  
+  `rm filename.txt`
+
+Restore a Deleted File  
+  `git restore filename.txt`
+
+
+
+3. Branching
+
+Create a New Branch  
+  `git checkout -b new_branch`
+
+Switch Between Branches  
+  `git checkout branch_name`
+
+Delete a Branch  
+  `git branch -d branch_name`
+
+
+4. Status and Logs
+
+Check the Status of Your Repository  
+  `git status`
+
+View Commit History  
+  `git log`
+
+View Commit History in One Line  
+  `git log --oneline`
+
+
+5. Cloning and Remote Repositories
+
+Clone a Repository  
+  `git clone https://github.com/username/repository.git`
+
+View Remote Repositories  
+  `git remote -v`
+
+
+
+6. Merging and Conflicts
+
+Merge a Branch into Current Branch  
+  `git merge branch_name`
+
+
+7. SSH and Remote Access
+
+SSH into a Remote Server  
+  `ssh -i "keypair.pem" username@remote-server-ip`
+
+
+
+8. Miscellaneous
+
+List Tracked Files  
+  `git ls-files`
+
+Check Git Branches  
+  `git branch`
+
+Create a Directory  
+  `mkdir directory_name`
+
+Change Directory  
+  `cd directory_name`
+
+List Files and Directories  
+  `ls`
+
+9. Working with Branches
+
+Switch to Another Branch  
+  `git switch branch_name`
+
+Create a New Branch and Switch to It  
+  `git checkout -b branch_name`
